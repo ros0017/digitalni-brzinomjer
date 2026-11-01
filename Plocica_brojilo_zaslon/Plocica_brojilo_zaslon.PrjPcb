@@ -86,7 +86,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QUXMRITB
 
 [Document3]
-DocumentPath=DZ1_Rosandic_Lovro.SchLib
+DocumentPath=Brojilo_zaslon.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -103,7 +103,7 @@ GenerateClassCluster=0
 DocumentUniqueId=JDXGCMVQ
 
 [Document4]
-DocumentPath=DZ1_1_Rosandic_Lovro.SchDoc
+DocumentPath=Brojilo_zaslon.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,7 +137,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=DZ1_Rosandic_LovroPrjPcb.BomDoc
+DocumentPath=Brojilo_zaslon.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -171,7 +171,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
 [Document8]
-DocumentPath=DZ1_Rosandic_Lovro.PcbLib
+DocumentPath=Brojilo_zaslon.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -188,7 +188,7 @@ GenerateClassCluster=0
 DocumentUniqueId=JXXQNDQO
 
 [Document9]
-DocumentPath=DZ2_Rosandic_Lovro.PcbDoc
+DocumentPath=Brojilo_zaslon.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

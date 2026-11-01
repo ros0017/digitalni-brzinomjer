@@ -4,35 +4,37 @@ Projekt iz predmeta PES (FER). Ovo je digitalni brzinomjer s infracrvenim senzor
 
 | Mapa | Pločica | Dimenzije |
 |---|---|---|
-| `Brzinomjer_1/` | Senzorska pločica: IR LED (TSAL6200), fototranzistor, pojačalo LM321 i regulator 5 V (LM341) | 43 × 72 mm |
-| `Brzinomjer_2/` | Pločica s brojilom i zaslonom: tajmer, dekadska brojila, registri, BCD dekoderi i dva 7-segmentna zaslona | 113 × 60 mm |
+| `Senzorska_plocica/` | IR LED (TSAL6200), fototranzistor, pojačalo LM321 i regulator 5 V (LM341) | 43 × 72 mm |
+| `Plocica_brojilo_zaslon/` | Tajmer, dekadska brojila, registri, BCD dekoderi i dva 7-segmentna zaslona | 113 × 60 mm |
 
-## Shema
+## Sheme
 
-![Shema brzinomjera](docs/shema_DZ1_1_Rosandic_Lovro.png)
+![Shema brojila i zaslona](docs/shema_brojilo_zaslon.png)
 
 Princip rada: tajmer daje vremenska vrata, dekadska brojila broje impulse s fototranzistora unutar tih vrata, a rezultat se upisuje u registre i preko BCD/7-segmentnih dekodera prikazuje na zaslonu.
+
+![Shema senzora](docs/shema_senzor.png)
 
 ## Tiskane pločice
 
 | Pločica s brojilom i zaslonom | Senzorska pločica |
 |---|---|
-| ![](docs/Brzinomjer_2_str1.png) | ![](docs/Brzinomjer_1_str3.png) |
-| ![](docs/Brzinomjer_2_str2.png) | ![](docs/Brzinomjer_1_str1.png) |
+| ![](docs/Plocica_brojilo_zaslon_str1.png) | ![](docs/Senzorska_plocica_str3.png) |
+| ![](docs/Plocica_brojilo_zaslon_str2.png) | ![](docs/Senzorska_plocica_str1.png) |
 
-Cijeli crteži za izradu (slojevi, bušenje, dimenzije) su u `docs/Brzinomjer_1_izrada.pdf` i `docs/Brzinomjer_2_izrada.pdf`.
+Cijeli crteži za izradu (slojevi, bušenje, dimenzije) su u `docs/Senzorska_plocica_izrada.pdf` i `docs/Plocica_brojilo_zaslon_izrada.pdf`.
 
 ## Struktura repozitorija
 
 ```
-Brzinomjer_1/   Altium projekt senzorske pločice (Brzinomjer_1.PrjPcb)
-Brzinomjer_2/   Altium projekt pločice s brojilom i zaslonom (Brzinomjer_2.PrjPcb)
-docs/           slike i PDF crteži za izradu
+Senzorska_plocica/        Altium projekt senzorske pločice (Senzorska_plocica.PrjPcb)
+Plocica_brojilo_zaslon/   Altium projekt pločice s brojilom i zaslonom (Plocica_brojilo_zaslon.PrjPcb)
+docs/                     slike i PDF crteži za izradu
 ```
 
 ## Popis komponenti (BOM)
 
-BOM s kataloškim brojevima i cijenama (DigiKey) je u [`Brzinomjer_2/DZ1_Rosandic_Lovro.xlsx`](Brzinomjer_2/DZ1_Rosandic_Lovro.xlsx).
+BOM s kataloškim brojevima i cijenama (DigiKey) je u [`Plocica_brojilo_zaslon/BOM_brzinomjer.xlsx`](Plocica_brojilo_zaslon/BOM_brzinomjer.xlsx).
 
 ## Autor
 
